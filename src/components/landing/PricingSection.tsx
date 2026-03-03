@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 const plans = [
   {
     name: "One-Time Buy",
-    monthlyPrice: "Custom",
-    annualPrice: "Custom",
+    monthlyPrice: "₹10,000",
+    annualPrice: "₹6,500",
     desc: "Single project access",
     features: ["Basic reporting", "Limited storage", "One-time payment", "Validity: 90 days"],
     cta: "Buy Now",
@@ -17,8 +17,8 @@ const plans = [
   },
   {
     name: "Starter",
-    monthlyPrice: "₹33,750",
-    annualPrice: "₹21,938",
+    monthlyPrice: "₹35,000",
+    annualPrice: "₹22,750",
     desc: "Up to 5 team members",
     features: ["Standard reporting", "Basic client dashboard", "Email support"],
     cta: "Get Started",
@@ -27,8 +27,8 @@ const plans = [
   },
   {
     name: "Professional",
-    monthlyPrice: "₹54,000",
-    annualPrice: "₹35,100",
+    monthlyPrice: "₹60,000",
+    annualPrice: "₹39,000",
     desc: "For scaling teams",
     badge: "Most Popular",
     features: ["Unlimited projects", "AI-assisted reporting", "Advanced dashboards", "Media documentation", "Role-based access", "Priority support"],
