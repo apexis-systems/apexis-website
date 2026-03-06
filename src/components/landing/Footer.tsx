@@ -1,6 +1,15 @@
+import apexisLogoFooter from "@/assets/apexis-logo-footer.png";
+
 export function Footer() {
   return (
-    <footer className="py-16 border-t border-border">
+    <footer>
+      {/* Logo section above footer bar */}
+      <div className="flex justify-center py-16">
+        <img src={apexisLogoFooter} alt="Apexis logo" className="h-48 sm:h-56 lg:h-64 w-auto object-contain" />
+      </div>
+
+      {/* Footer bar */}
+      <div className="py-16 border-t border-border">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Product */}
@@ -41,6 +50,7 @@ export function Footer() {
             © {new Date().getFullYear()} Apexis. All rights reserved.
           </p>
         </div>
+      </div>
       </div>
     </footer>
   );
