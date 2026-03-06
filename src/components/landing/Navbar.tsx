@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import apexisLogo from "@/assets/apexis-logo.png";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
@@ -44,7 +45,8 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
-        <a href="#" className="font-display text-2xl font-bold tracking-tight">
+        <a href="#" className="flex items-center gap-2 font-display text-2xl font-bold tracking-tight">
+          <img src={apexisLogo} alt="Apexis logo" className="h-8 w-8 object-contain" />
           Apexis
         </a>
 
