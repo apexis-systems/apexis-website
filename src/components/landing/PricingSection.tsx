@@ -10,6 +10,7 @@ const plans = [
     monthlyPrice: "₹10,000",
     annualPrice: "₹10,000",
     desc: "Single project access",
+    subtitle: "Valid for 90 days",
     features: [
       "Single Project Access",
       "Client Viewership",
@@ -23,8 +24,9 @@ const plans = [
   },
   {
     name: "Starter",
-    monthlyPrice: "₹35,000",
-    annualPrice: "₹22,750",
+    subtitle: "Monthly Subscription",
+    monthlyPrice: "₹40,000",
+    annualPrice: "₹26,000",
     desc: "Up to 5 projects",
     features: [
       "Up to 5 Projects",
@@ -39,6 +41,7 @@ const plans = [
   },
   {
     name: "Professional",
+    subtitle: "Monthly Subscription",
     monthlyPrice: "₹60,000",
     annualPrice: "₹39,000",
     desc: "Up to 10 projects",
@@ -123,6 +126,9 @@ export function PricingSection() {
                 )}
                 <h3 className="font-display text-lg font-bold">{plan.name}</h3>
                 <p className="text-sm text-muted-foreground mt-1">{plan.desc}</p>
+                {plan.subtitle && (
+                  <p className="text-xs font-medium text-foreground/70 mt-1">{plan.subtitle}</p>
+                )}
                 <p className="text-xs font-semibold text-primary mt-2 mb-4">14 Day Free Trial</p>
                 <div className="mb-6">
                   <motion.span
@@ -133,7 +139,7 @@ export function PricingSection() {
                   >
                     {annual ? plan.annualPrice : plan.monthlyPrice}
                   </motion.span>
-                  {plan.monthlyPrice !== "Custom" && (
+                  {plan.monthlyPrice !== "Custom" && plan.name !== "One-Time Buy" && (
                     <span className="text-sm text-muted-foreground">/month</span>
                   )}
                 </div>
