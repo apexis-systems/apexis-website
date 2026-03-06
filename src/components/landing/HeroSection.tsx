@@ -33,7 +33,7 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
             Currently onboarding select pilot firms
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight mb-6">
-            Your Projects Deserve Better Than WhatsApp Updates.
+            Your Projects Deserve Better Than <span className="text-primary">WhatsApp Updates.</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-lg mb-8 leading-relaxed">
             Apexis is the structured execution layer for modern construction and design teams.
