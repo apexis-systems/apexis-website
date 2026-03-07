@@ -7,28 +7,21 @@ interface FinalCTAProps {
 
 export function FinalCTA({ onOpenSignup }: FinalCTAProps) {
   return (
-    <section className="py-24 lg:py-32 bg-surface-dark relative overflow-hidden">
-      {/* Abstract bg */}
-      <div className="absolute inset-0 pointer-events-none">
-        <svg className="absolute right-0 bottom-0 w-[500px] h-[500px] opacity-[0.04]" viewBox="0 0 500 500">
-          <path d="M250 30L480 450H20L250 30Z" stroke="currentColor" strokeWidth="1.5" fill="none" />
-        </svg>
-      </div>
-
+    <section className="py-32 lg:py-40 bg-surface-dark relative overflow-hidden">
       <div className="container mx-auto px-4 lg:px-8 text-center relative z-10">
         <AnimatedSection>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-surface-dark-foreground mb-6">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-surface-dark-foreground mb-6 leading-[1.1]">
             Stop Managing Chaos.{" "}
             <span className="text-gradient-gold">Start Leading at the Apex.</span>
           </h2>
-          <p className="text-surface-dark-foreground/50 mb-8 text-sm font-medium">
+          <p className="text-surface-dark-foreground/40 mb-10 text-sm font-light">
             Private beta closing soon.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg" onClick={onOpenSignup}>
+            <Button size="lg" onClick={onOpenSignup} className="bg-background text-foreground hover:bg-background/90 font-semibold shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
               Get Early Access
             </Button>
-            <Button variant="hero-outline" size="lg" className="border-surface-dark-foreground/20 text-surface-dark-foreground hover:border-primary hover:text-primary">
+            <Button variant="hero-outline" size="lg" className="border-surface-dark-foreground/20 text-surface-dark-foreground hover:border-surface-dark-foreground/40">
               Schedule Demo
             </Button>
           </div>

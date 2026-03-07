@@ -9,13 +9,14 @@ export default {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        "2xl": "1200px",
       },
     },
     extend: {
       fontFamily: {
         display: ["Space Grotesk", "system-ui", "sans-serif"],
         body: ["Inter", "system-ui", "sans-serif"],
+        brand: ["Angelica", "Space Grotesk", "serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -96,8 +97,8 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "marquee": "marquee 30s linear infinite",
-        "fade-up": "fade-up 0.6s ease-out forwards",
+        "marquee": "marquee 40s linear infinite",
+        "fade-up": "fade-up 0.7s ease-out forwards",
       },
     },
   },

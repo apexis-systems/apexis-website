@@ -38,16 +38,16 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-background/70 backdrop-blur-xl border-b border-border/50 shadow-sm"
+          ? "bg-background/80 backdrop-blur-2xl border-b border-border/40 shadow-sm"
           : "bg-transparent"
       }`}
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
-        <a href="#" className="flex items-center gap-2 font-display text-2xl font-bold tracking-tight">
-          <img src={apexisLogo} alt="Apexis logo" className="h-8 w-8 object-contain" />
-          Apexis
+        <a href="#" className="flex items-center gap-2.5">
+          <img src={apexisLogo} alt="APEXIS logo" className="h-8 w-8 object-contain" />
+          <span className="font-brand text-2xl tracking-wide">APEXIS</span>
         </a>
 
         {/* Desktop nav */}
@@ -71,7 +71,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
               </a>
             )
           )}
-          <Button variant="gold" size="sm" onClick={onOpenSignup}>
+          <Button variant="default" size="sm" onClick={onOpenSignup}>
             Book Demo
           </Button>
         </div>
@@ -93,7 +93,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-background/95 backdrop-blur-xl border-b border-border overflow-hidden"
+            className="md:hidden bg-background/95 backdrop-blur-2xl border-b border-border overflow-hidden"
           >
             <div className="flex flex-col gap-4 px-4 py-6">
               {navLinks.map((link) =>
@@ -116,7 +116,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
                   </a>
                 )
               )}
-              <Button variant="gold" size="sm" onClick={() => { setMobileOpen(false); onOpenSignup(); }}>
+              <Button variant="default" size="sm" onClick={() => { setMobileOpen(false); onOpenSignup(); }}>
                 Book Demo
               </Button>
             </div>

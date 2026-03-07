@@ -11,9 +11,9 @@ const companies = [
 
 export function MarqueeSection() {
   return (
-    <section className="py-16 bg-card/50 overflow-hidden">
+    <section className="py-16 overflow-hidden">
       <AnimatedSection className="text-center mb-10">
-        <p className="text-sm font-semibold tracking-widest uppercase text-muted-foreground">
+        <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground">
           Trusted by Growing Project Teams
         </p>
       </AnimatedSection>
@@ -23,7 +23,7 @@ export function MarqueeSection() {
           {[...companies, ...companies].map((name, i) => (
             <div
               key={i}
-              className="mx-8 lg:mx-12 flex-shrink-0 text-xl lg:text-2xl font-display font-bold text-foreground/15 hover:text-foreground/30 transition-colors duration-300 select-none"
+              className="mx-8 lg:mx-12 flex-shrink-0 text-xl lg:text-2xl font-display font-bold text-foreground/10 hover:text-foreground/20 transition-colors duration-300 select-none"
             >
               {name}
             </div>
