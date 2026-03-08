@@ -4,7 +4,7 @@ import { Activity, Database, FileText, BarChart3, Share2 } from "lucide-react";
 
 const steps = [
   { icon: Activity, label: "Site Activity" },
-  { icon: Database, label: "Recorded in APEXIS" },
+  { icon: Database, label: "Recorded in APEXIS" },  
   { icon: FileText, label: "Structured Documentation" },
   { icon: BarChart3, label: "Professional Reports" },
   { icon: Share2, label: "Shared With Clients" },
