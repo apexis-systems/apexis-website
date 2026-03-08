@@ -11,9 +11,11 @@ interface NavbarProps {
 
 const navLinks = [
   { label: "Home", href: "#" },
+  { label: "Problem", href: "#problem" },
+  { label: "Origin", href: "#origin" },
   { label: "Product", href: "#solution" },
-  { label: "How It Works", href: "#about" },
   { label: "Pricing", href: "#pricing" },
+  { label: "Demo", href: "#demo" },
   { label: "Founder", href: "/founder" },
   { label: "Login", href: "/login" },
 ];
@@ -33,6 +35,19 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
     setMobileOpen(false);
     if (href.startsWith("/")) {
       navigate(href);
+    } else if (href === "#") {
+      if (window.location.pathname !== "/") {
+        navigate("/");
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    } else {
+      if (window.location.pathname !== "/") {
+        navigate("/" + href);
+      } else {
+        const el = document.querySelector(href);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }
     }
   };
 
@@ -52,26 +67,16 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
 
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) =>
-            link.href.startsWith("/") ? (
+          {navLinks.map((link) => (
               <button
                 key={link.href}
-                onClick={() => navigate(link.href)}
+                onClick={() => handleNavClick(link.href)}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200"
               >
                 {link.label}
               </button>
-            ) : (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-200"
-              >
-                {link.label}
-              </a>
-            )
-          )}
-          <Button variant="default" size="sm" onClick={onOpenSignup}>
+            ))}
+            <Button variant="default" size="sm" onClick={onOpenSignup}>
             Book Demo
           </Button>
         </div>
@@ -96,8 +101,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
             className="md:hidden bg-background/95 backdrop-blur-2xl border-b border-border overflow-hidden"
           >
             <div className="flex flex-col gap-4 px-4 py-6">
-              {navLinks.map((link) =>
-                link.href.startsWith("/") ? (
+              {navLinks.map((link) => (
                   <button
                     key={link.href}
                     onClick={() => handleNavClick(link.href)}
@@ -105,17 +109,7 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
                   >
                     {link.label}
                   </button>
-                ) : (
-                  <a
-                    key={link.href}
-                    href={link.href}
-                    className="text-sm font-medium text-muted-foreground hover:text-foreground"
-                    onClick={() => setMobileOpen(false)}
-                  >
-                    {link.label}
-                  </a>
-                )
-              )}
+                ))}
               <Button variant="default" size="sm" onClick={() => { setMobileOpen(false); onOpenSignup(); }}>
                 Book Demo
               </Button>
