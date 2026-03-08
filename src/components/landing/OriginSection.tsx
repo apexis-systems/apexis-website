@@ -8,7 +8,7 @@ export function OriginSection() {
           <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
             The Origin
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-10 leading-[1.1]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 leading-[1.1]">
             The Origin of APEXIS
           </h2>
         </AnimatedSection>

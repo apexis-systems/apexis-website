@@ -68,7 +68,7 @@ const Founder = () => {
             </div>
           </AnimatedSection>
 
-          <AnimatedSection delay={0.3} className="mt-16">
+          <AnimatedSection delay={0.3} className="mt-10">
             <div className="border-t border-border pt-8">
               <h3 className="text-xl font-display font-bold text-foreground mb-1">
                 Mirza Naseer Ahmed Baig
