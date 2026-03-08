@@ -52,7 +52,7 @@ const Founder = () => {
                 Alongside professional practice, he has also been actively involved in mentoring architecture students, guiding interns who joined the studio each year and helping them gain practical exposure to the profession.
               </p>
               <p>
-                With years of experience navigating the complexities of construction projects, he founded <span style={{ color: '#f97415' }}>APEXIS</span> with the goal of bringing greater transparency, structure, and technological efficiency to project management within the built environment.
+                With years of experience navigating the complexities of construction projects, he founded <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> with the goal of bringing greater transparency, structure, and technological efficiency to project management within the built environment.
               </p>
             </div>
           </AnimatedSection>
