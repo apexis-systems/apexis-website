@@ -13,7 +13,7 @@ export function TheShiftSection() {
     <section className="py-20 lg:py-28 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
         <AnimatedSection className="mb-16">
-          <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
+          <span className="text-xs font-bold tracking-widest uppercase mb-6 block" style={{ color: '#f97415' }}>
             The Shift
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 leading-[1.1]">

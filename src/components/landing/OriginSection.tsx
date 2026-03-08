@@ -5,7 +5,7 @@ export function OriginSection() {
     <section id="origin" className="py-12 lg:py-16 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <AnimatedSection>
-          <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
+          <span className="text-xs font-bold tracking-widest uppercase mb-6 block" style={{ color: '#f97415' }}>
             The Origin
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 leading-[1.1]">

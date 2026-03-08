@@ -26,6 +26,9 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
           <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed font-light">
             <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> is the structured execution layer for modern construction and design teams.
           </p>
+          <p className="text-2xl font-display font-bold mb-10" style={{ color: '#f97415' }}>
+            RECORD . REPORT . RELEASE .
+          </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button variant="hero" size="lg" onClick={onOpenSignup}>
               Get Early Access
