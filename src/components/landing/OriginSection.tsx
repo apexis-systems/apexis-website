@@ -21,7 +21,7 @@ export function OriginSection() {
             <p>
               Over time, it became clear that the industry needed a more structured and transparent way to track project progress.
             </p>
-            <p className="font-medium" style={{ color: '#f97415' }}>
+            <p className="font-medium" style={{ color: '#111111' }}>
               <span className="font-bold">APEXIS</span> was created to address this gap.
             </p>
             <p>
