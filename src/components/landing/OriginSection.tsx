@@ -37,7 +37,7 @@ export function OriginSection() {
               <span style={{ color: '#f97415' }}>APEXIS</span> aims to bring technology-driven clarity, accountability, and organized communication into construction projects.
             </p>
             <p>
-              By creating a centralized platform for updates and progress tracking, APEXIS helps ensure that everyone involved in a project — from clients to professionals — stays aligned and informed.
+              By creating a centralized platform for updates and progress tracking, <span style={{ color: '#f97415' }}>APEXIS</span> helps ensure that everyone involved in a project — from clients to professionals — stays aligned and informed.
             </p>
           </div>
         </AnimatedSection>
