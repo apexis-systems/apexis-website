@@ -19,7 +19,7 @@ export function Footer() {
                 <a href="#solution" className="hover:text-foreground transition-colors">How It Works</a>
                 <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
                 <a href="#" className="hover:text-foreground transition-colors">Security</a>
-                <a href="#about" className="hover:text-foreground transition-colors">About APEXIS</a>
+                <a href="#about" className="hover:text-foreground transition-colors">About <span style={{ color: '#f97415' }}>APEXIS</span></a>
               </div>
             </div>
 
@@ -47,7 +47,7 @@ export function Footer() {
 
           <div className="border-t border-border/40 pt-8">
             <p className="text-xs text-muted-foreground/60 text-center font-light">
-              © {new Date().getFullYear()} APEXIS. All rights reserved.
+              © {new Date().getFullYear()} <span style={{ color: '#f97415' }}>APEXIS</span>. All rights reserved.
             </p>
           </div>
         </div>

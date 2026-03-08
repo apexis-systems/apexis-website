@@ -24,7 +24,7 @@ export function BeforeAfterSection() {
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <AnimatedSection className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.1]">
-            Before APEXIS vs <span className="text-gradient-gold">After APEXIS</span>
+            Before <span style={{ color: '#f97415' }}>APEXIS</span> vs <span style={{ color: '#f97415' }}>After APEXIS</span>
           </h2>
         </AnimatedSection>
 
@@ -37,7 +37,7 @@ export function BeforeAfterSection() {
               transition={{ duration: 0.6 }}
               className="rounded-xl border border-border/60 bg-card p-8 h-full"
             >
-              <h3 className="font-display font-bold text-lg mb-8 text-foreground/70">Before APEXIS</h3>
+              <h3 className="font-display font-bold text-lg mb-8 text-foreground/70">Before <span style={{ color: '#f97415' }}>APEXIS</span></h3>
               <div className="space-y-5">
                 {before.map((item) => (
                   <div key={item} className="flex items-start gap-3 pb-5 border-b border-border/40 last:border-0 last:pb-0">
@@ -57,7 +57,7 @@ export function BeforeAfterSection() {
               transition={{ duration: 0.6 }}
               className="rounded-xl border border-foreground/10 bg-foreground/[0.02] p-8 h-full"
             >
-              <h3 className="font-display font-bold text-lg mb-8" style={{ color: '#f97415' }}>After APEXIS</h3>
+              <h3 className="font-display font-bold text-lg mb-8" style={{ color: '#f97415' }}>After <span style={{ color: '#f97415' }}>APEXIS</span></h3>
               <div className="space-y-5">
                 {after.map((item) => (
                   <div key={item} className="flex items-start gap-3 pb-5 border-b border-border/40 last:border-0 last:pb-0">

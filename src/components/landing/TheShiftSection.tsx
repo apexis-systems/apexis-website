@@ -26,7 +26,7 @@ export function TheShiftSection() {
             <p>Many construction teams use project management software.</p>
             <p>But project management platforms focus on planning, scheduling, and task allocation.</p>
             <p>What is often missing is the execution documentation layer.</p>
-            <p><strong className="text-foreground font-medium">APEXIS fills this gap.</strong></p>
+            <p><strong className="font-medium" style={{ color: '#f97415' }}>APEXIS fills this gap.</strong></p>
             <p>It records real site activity, structures the information, and converts it into professional reporting infrastructure.</p>
           </div>
         </AnimatedSection>
@@ -68,7 +68,7 @@ export function TheShiftSection() {
 
         <AnimatedSection delay={0.5} className="max-w-3xl">
           <p className="text-lg font-display font-semibold text-foreground">
-            APEXIS is building the execution documentation layer for modern construction projects.
+            <span style={{ color: '#f97415' }}>APEXIS</span> is building the execution documentation layer for modern construction projects.
           </p>
         </AnimatedSection>
       </div>

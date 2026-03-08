@@ -52,8 +52,8 @@ export default function Signup() {
       >
         <Card className="shadow-lg border-border/50">
           <CardHeader className="text-center pb-2">
-            <Link to="/" className="font-display text-2xl font-bold tracking-tight mb-4 block">
-              Apexis
+            <Link to="/" className="font-display text-2xl font-bold tracking-tight mb-4 block" style={{ color: '#f97415' }}>
+              APEXIS
             </Link>
             <h1 className="text-2xl font-display font-bold">Create Your Account</h1>
             <p className="text-sm text-muted-foreground mt-1">

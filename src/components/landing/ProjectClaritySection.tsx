@@ -15,7 +15,7 @@ export function ProjectClaritySection() {
               A single view of everything happening across your construction projects.
             </p>
             <div className="space-y-4 text-muted-foreground leading-relaxed font-light mb-8">
-              <p>APEXIS transforms scattered site activity into a structured command center.</p>
+              <p><span style={{ color: '#f97415' }}>APEXIS</span> transforms scattered site activity into a structured command center.</p>
               <p>Every update becomes visible, organized, and decision-ready.</p>
             </div>
             <ul className="space-y-3 mb-8">

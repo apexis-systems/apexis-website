@@ -15,13 +15,13 @@ export function WhatApexisDoesSection() {
       <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
         <AnimatedSection className="text-center mb-16">
           <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
-            What APEXIS Actually Does
+            What <span style={{ color: '#f97415' }}>APEXIS</span> Actually Does
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-4 leading-[1.1]">
             Construction Reporting Infrastructure
           </h2>
           <p className="text-lg text-muted-foreground font-light max-w-2xl mx-auto leading-relaxed">
-            APEXIS transforms informal site communication into structured, professional project documentation.
+            <span style={{ color: '#f97415' }}>APEXIS</span> transforms informal site communication into structured, professional project documentation.
           </p>
         </AnimatedSection>
 
@@ -66,7 +66,7 @@ export function WhatApexisDoesSection() {
 
         <AnimatedSection delay={0.4} className="text-center max-w-2xl mx-auto">
           <p className="text-muted-foreground leading-relaxed font-light">
-            Instead of relying on scattered updates across chat platforms, APEXIS records project activity in a structured format and generates clear reports for decision makers.
+            Instead of relying on scattered updates across chat platforms, <span style={{ color: '#f97415' }}>APEXIS</span> records project activity in a structured format and generates clear reports for decision makers.
           </p>
         </AnimatedSection>
       </div>

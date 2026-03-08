@@ -63,7 +63,7 @@ export function CategoryCreationSection() {
                 <div className={`w-10 h-10 rounded-lg flex items-center justify-center mb-5 ${col.highlighted ? "bg-foreground/10" : "bg-foreground/5"}`}>
                   <col.icon className="w-5 h-5 text-foreground/60" strokeWidth={1.5} />
                 </div>
-                <h3 className="font-display font-bold text-base mb-1">{col.title}</h3>
+                <h3 className="font-display font-bold text-base mb-1" style={col.highlighted ? { color: '#f97415' } : undefined}>{col.title}</h3>
                 <p className="text-xs text-muted-foreground mb-4 font-light">Purpose: {col.purpose}</p>
                 <ul className="space-y-2 mb-6">
                   {col.examples.map((ex) => (
@@ -83,7 +83,7 @@ export function CategoryCreationSection() {
 
         <AnimatedSection className="text-center max-w-2xl mx-auto">
           <p className="font-display font-semibold text-base mb-2">
-            APEXIS is not another project management tool.
+            <span style={{ color: '#f97415' }}>APEXIS</span> is not another project management tool.
           </p>
           <p className="text-muted-foreground font-light mb-8">
             It is the reporting infrastructure construction projects have been missing.
