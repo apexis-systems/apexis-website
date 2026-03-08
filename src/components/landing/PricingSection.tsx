@@ -101,11 +101,13 @@ export function PricingSection() {
           <span className={`text-sm font-medium ${!annual ? "text-foreground" : "text-muted-foreground"}`}>Monthly</span>
           <button
             onClick={() => setAnnual(!annual)}
-            className="relative w-14 h-7 rounded-full bg-foreground/10 transition-colors"
+            className="relative w-14 h-7 rounded-full transition-colors"
+            style={{ backgroundColor: 'rgba(249, 116, 21, 0.2)' }}
             aria-label="Toggle billing period"
           >
             <motion.div
-              className="absolute top-1 w-5 h-5 rounded-full bg-foreground"
+              className="absolute top-1 w-5 h-5 rounded-full"
+              style={{ backgroundColor: '#f97415' }}
               animate={{ left: annual ? "calc(100% - 24px)" : "4px" }}
               transition={{ type: "spring", stiffness: 500, damping: 30 }}
             />
