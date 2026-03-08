@@ -9,6 +9,7 @@ import Signup from "./pages/Signup";
 import VerifyOtp from "./pages/VerifyOtp";
 import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
+import Founder from "./pages/Founder";
 
 const queryClient = new QueryClient();
 
