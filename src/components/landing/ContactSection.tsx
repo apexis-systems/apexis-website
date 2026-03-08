@@ -256,7 +256,7 @@ export function ContactSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={s.label}
-                    className="w-10 h-10 rounded-full border border-border/60 flex items-center justify-center text-foreground transition-all duration-300 hover:text-primary hover:scale-110"
+                    className="w-10 h-10 rounded-full border border-border/60 flex items-center justify-center text-primary transition-all duration-300 hover:scale-110"
                   >
                     {s.icon}
                   </a>
