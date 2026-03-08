@@ -22,7 +22,7 @@ export function WorkflowFitSection() {
             A Platform Built Around Real Construction Workflows
           </h2>
           <p className="text-lg text-muted-foreground font-light max-w-2xl mx-auto leading-relaxed">
-            <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> does not replace your existing tools. It adds a structured reporting layer to your project execution.
+            <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> does not replace your existing tools. It adds a structured reporting layer to your project execution.
           </p>
         </AnimatedSection>
 
