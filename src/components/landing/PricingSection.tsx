@@ -179,8 +179,13 @@ export function PricingSection() {
                 <Button
                   variant={plan.highlighted ? "hero" : plan.outline ? "hero-outline" : "default"}
                   className="w-full"
+                  asChild={plan.name === "Enterprise"}
                 >
-                  {plan.cta}
+                  {plan.name === "Enterprise" ? (
+                    <a href="mailto:sales@apexis.in">{plan.cta}</a>
+                  ) : (
+                    plan.cta
+                  )}
                 </Button>
               </motion.div>
             </AnimatedSection>
