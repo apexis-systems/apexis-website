@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Navbar } from "@/components/landing/Navbar";
 import { ScrollProgress } from "@/components/landing/ScrollProgress";
 import { HeroSection } from "@/components/landing/HeroSection";
-import { AboutSection } from "@/components/landing/AboutSection";
 import { ProblemSection } from "@/components/landing/ProblemSection";
 import { WhatApexisDoesSection } from "@/components/landing/WhatApexisDoesSection";
 import { TheShiftSection } from "@/components/landing/TheShiftSection";
@@ -38,77 +37,73 @@ const Index = () => {
       <HeroSection onOpenSignup={() => setSignupOpen(true)} />
       <SectionDivider />
       
-      {/* 2. About APEXIS */}
-      <AboutSection />
-      <SectionDivider />
-      
-      {/* 3. The Problem */}
+      {/* 2. The Problem */}
       <ProblemSection />
       <SectionDivider />
       
-      {/* 4. What APEXIS Actually Does */}
+      {/* 3. What APEXIS Actually Does */}
       <WhatApexisDoesSection />
       <SectionDivider />
       
-      {/* 5. The Shift */}
+      {/* 4. The Shift */}
       <TheShiftSection />
       <SectionDivider />
       
-      {/* 6. How APEXIS Works */}
+      {/* 5. How APEXIS Works */}
       <SolutionSection />
       <SectionDivider />
       
-      {/* 7. Zero Learning Curve */}
+      {/* 6. Zero Learning Curve */}
       <LearningCurveSection />
       <SectionDivider />
       
-      {/* 8. Fits Seamlessly */}
+      {/* 7. Fits Seamlessly */}
       <WorkflowFitSection />
       <SectionDivider />
       
-      {/* 9. Notifications Intelligence */}
+      {/* 8. Notifications Intelligence */}
       <PriorityNotificationsSection />
       <SectionDivider />
       
-      {/* 10. Built for the Field */}
+      {/* 9. Built for the Field */}
       <DifferentiationSection />
       <SectionDivider />
       
-      {/* 11. Export & Handover */}
+      {/* 10. Export & Handover */}
       <ClientHandoverSection />
       
-      {/* 12. Before vs After */}
+      {/* 11. Before vs After */}
       <BeforeAfterSection />
       <SectionDivider />
       
-      {/* 13. Enterprise Credibility */}
+      {/* 12. Enterprise Credibility */}
       <AccountabilitySection />
       <MarqueeSection />
       <SectionDivider />
       
-      {/* 14. Social Proof */}
+      {/* 13. Social Proof */}
       <TestimonialsSection />
       
-      {/* 15. Metrics + Pricing */}
+      {/* 14. Metrics + Pricing */}
       <MetricsSection />
       <PricingSection />
       <SectionDivider />
       
-      {/* 16. Data Privacy */}
+      {/* 15. Data Privacy */}
       <DataPrivacySection />
       <SectionDivider />
       
-      {/* 17. Demo Booking */}
+      {/* 16. Demo Booking */}
       <DemoBookingSection />
       <SectionDivider />
       
-      {/* 18. Final Conversion */}
+      {/* 17. Final Conversion */}
       <FinalCTA onOpenSignup={() => setSignupOpen(true)} />
       
-      {/* 19. Social Media Icons */}
+      {/* 18. Social Media Icons */}
       <SocialIconsSection />
       
-      {/* 20. Footer */}
+      {/* 19. Footer */}
       <Footer />
       
       <SignupModal open={signupOpen} onOpenChange={setSignupOpen} />

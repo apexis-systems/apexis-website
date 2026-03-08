@@ -5,14 +5,14 @@ import { CalendarDays, ClipboardList, Users } from "lucide-react";
 const layers = [
   { icon: CalendarDays, label: "Planning Tools", sub: "Scheduling & task allocation" },
   { icon: ClipboardList, label: "Execution Documentation", sub: "APEXIS", highlighted: true },
-  { icon: Users, label: "Client Reporting", sub: "Stakeholder visibility" },
+  { icon: Users, label: "Client Reporting", sub: "Client visibility" },
 ];
 
 export function TheShiftSection() {
   return (
-    <section className="py-32 lg:py-40 bg-card/30">
+    <section className="py-20 lg:py-28 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
-        <AnimatedSection className="mb-20">
+        <AnimatedSection className="mb-16">
           <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
             The Shift
           </span>
@@ -21,7 +21,7 @@ export function TheShiftSection() {
           </h2>
         </AnimatedSection>
 
-        <AnimatedSection delay={0.15} className="mb-16">
+        <AnimatedSection delay={0.15} className="mb-12">
           <div className="space-y-5 text-muted-foreground leading-relaxed text-lg font-light max-w-3xl">
             <p>Many construction teams use project management software.</p>
             <p>But project management platforms focus on planning, scheduling, and task allocation.</p>
@@ -31,8 +31,7 @@ export function TheShiftSection() {
           </div>
         </AnimatedSection>
 
-        {/* Layer diagram */}
-        <AnimatedSection delay={0.3} className="mb-16">
+        <AnimatedSection delay={0.3} className="mb-12">
           <div className="flex flex-col items-center gap-3 max-w-sm mx-auto">
             {layers.map((layer, i) => (
               <div key={layer.label} className="w-full">
@@ -50,7 +49,7 @@ export function TheShiftSection() {
                   <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${
                     layer.highlighted ? "bg-foreground/10" : "bg-foreground/5"
                   }`}>
-                    <layer.icon className="w-5 h-5 text-foreground/60" strokeWidth={1.5} />
+                    <layer.icon className="w-5 h-5" style={{ color: '#f97415' }} strokeWidth={1.5} />
                   </div>
                   <div>
                     <p className="font-display font-semibold text-sm">{layer.label}</p>

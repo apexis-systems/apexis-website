@@ -21,7 +21,7 @@ export function DemoBookingSection() {
   };
 
   return (
-    <section id="demo" className="py-32 lg:py-40">
+    <section id="demo" className="py-20 lg:py-28">
       <div className="container mx-auto px-4 lg:px-8 max-w-2xl">
         <AnimatedSection className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-4 leading-[1.1]">

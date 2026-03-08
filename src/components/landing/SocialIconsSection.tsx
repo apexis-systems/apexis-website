@@ -73,7 +73,8 @@ export function SocialIconsSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={s.label}
-                className="w-10 h-10 rounded-full border border-border/60 flex items-center justify-center text-foreground/50 hover:text-[#f97415] hover:border-[#f97415]/30 transition-all duration-300"
+                className="w-10 h-10 rounded-full border border-border/60 flex items-center justify-center transition-all duration-300 hover:scale-110"
+                style={{ color: '#f97415' }}
               >
                 {s.icon}
               </a>

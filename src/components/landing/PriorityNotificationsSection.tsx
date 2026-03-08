@@ -19,7 +19,7 @@ const benefits = [
 
 export function PriorityNotificationsSection() {
   return (
-    <section className="py-32 lg:py-40 bg-card/30">
+    <section className="py-20 lg:py-28 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-20 items-center max-w-5xl mx-auto">
           <AnimatedSection>
@@ -35,7 +35,7 @@ export function PriorityNotificationsSection() {
             <ul className="space-y-3 mb-8">
               {benefits.map((b) => (
                 <li key={b} className="flex items-center gap-3 text-sm font-light">
-                  <div className="w-1 h-1 rounded-full bg-foreground/30 flex-shrink-0" />
+                  <div className="w-1 h-1 rounded-full flex-shrink-0" style={{ backgroundColor: '#f97415' }} />
                   <span>{b}</span>
                 </li>
               ))}
@@ -54,7 +54,7 @@ export function PriorityNotificationsSection() {
                     className="flex items-center gap-4 rounded-xl border border-border/60 bg-card p-4"
                   >
                     <div className="w-10 h-10 rounded-lg bg-foreground/5 flex items-center justify-center flex-shrink-0">
-                      <step.icon className="w-5 h-5 text-foreground/60" strokeWidth={1.5} />
+                      <step.icon className="w-5 h-5" style={{ color: '#f97415' }} strokeWidth={1.5} />
                     </div>
                     <p className="font-display font-medium text-sm">{step.label}</p>
                   </motion.div>

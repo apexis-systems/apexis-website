@@ -11,9 +11,9 @@ const steps = [
 
 export function WhatApexisDoesSection() {
   return (
-    <section className="py-32 lg:py-40">
+    <section className="py-20 lg:py-28">
       <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
-        <AnimatedSection className="text-center mb-20">
+        <AnimatedSection className="text-center mb-16">
           <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
             What APEXIS Actually Does
           </span>
@@ -25,8 +25,7 @@ export function WhatApexisDoesSection() {
           </p>
         </AnimatedSection>
 
-        {/* Workflow diagram */}
-        <AnimatedSection delay={0.2} className="mb-16">
+        <AnimatedSection delay={0.2} className="mb-12">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-0">
             {steps.map((step, i) => (
               <div key={step.label} className="flex flex-col sm:flex-row items-center gap-4 sm:gap-0">
@@ -38,7 +37,7 @@ export function WhatApexisDoesSection() {
                   className="flex flex-col items-center gap-3"
                 >
                   <div className="w-16 h-16 rounded-xl border border-border/60 bg-card flex items-center justify-center">
-                    <step.icon className="w-6 h-6 text-foreground/60" strokeWidth={1.5} />
+                    <step.icon className="w-6 h-6" style={{ color: '#f97415' }} strokeWidth={1.5} />
                   </div>
                   <span className="text-sm font-medium text-foreground">{step.label}</span>
                 </motion.div>

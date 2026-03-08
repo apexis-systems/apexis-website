@@ -10,7 +10,7 @@ const features = [
 
 export function AccountabilitySection() {
   return (
-    <section className="py-32 lg:py-40">
+    <section className="py-20 lg:py-28">
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-8">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-3 leading-[1.1]">
@@ -22,7 +22,7 @@ export function AccountabilitySection() {
           </p>
         </AnimatedSection>
 
-        <AnimatedSection className="flex items-center justify-center gap-2 mb-20 text-xs text-muted-foreground font-mono">
+        <AnimatedSection className="flex items-center justify-center gap-2 mb-16 text-xs text-muted-foreground font-mono">
           {["Update", "Log", "Report", "Record"].map((step, i) => (
             <span key={step} className="flex items-center gap-2">
               <span className="px-3 py-1.5 rounded-lg bg-card border border-border/60">{step}</span>
@@ -36,7 +36,7 @@ export function AccountabilitySection() {
             <AnimatedSection key={f.title} delay={i * 0.1}>
               <div className="bg-card rounded-xl border border-border/60 p-6 h-full hover:shadow-lg hover:shadow-foreground/[0.03] hover:-translate-y-1 transition-all duration-500">
                 <div className="w-10 h-10 rounded-lg bg-foreground/5 flex items-center justify-center mb-5">
-                  <f.icon className="w-5 h-5 text-foreground/60" strokeWidth={1.5} />
+                  <f.icon className="w-5 h-5" style={{ color: '#f97415' }} strokeWidth={1.5} />
                 </div>
                 <h3 className="font-display font-semibold text-sm mb-2">{f.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed font-light">{f.desc}</p>

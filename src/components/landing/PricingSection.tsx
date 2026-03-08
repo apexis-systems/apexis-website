@@ -17,6 +17,7 @@ const plans = [
       "Basic Reporting",
       "5GB Storage",
       "One-time purchase",
+      "Multi-lingual Support (EN, HI, TE)",
     ],
     cta: "Buy Now",
     highlighted: false,
@@ -34,6 +35,7 @@ const plans = [
       "Structured Reporting",
       "25GB Storage",
       "Basic Project Dashboard",
+      "Multi-lingual Support (EN, HI, TE)",
     ],
     cta: "Get Started",
     highlighted: false,
@@ -54,6 +56,7 @@ const plans = [
       "100GB Storage",
       "Media Documentation",
       "Priority Support",
+      "Multi-lingual Support (EN, HI, TE)",
     ],
     cta: "Upgrade to Pro",
     highlighted: true,
@@ -72,6 +75,7 @@ const plans = [
       "Dedicated Support",
       "Custom Integrations",
       "Above 100GB Storage",
+      "Multi-lingual Support (EN, HI, TE)",
     ],
     cta: "Contact Sales",
     highlighted: false,
@@ -83,7 +87,7 @@ export function PricingSection() {
   const [annual, setAnnual] = useState(false);
 
   return (
-    <section id="pricing" className="py-32 lg:py-40">
+    <section id="pricing" className="py-20 lg:py-28">
       <div className="container mx-auto px-4 lg:px-8">
         <AnimatedSection className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-4 leading-[1.1]">
@@ -93,7 +97,7 @@ export function PricingSection() {
         </AnimatedSection>
 
         {/* Toggle */}
-        <AnimatedSection className="flex items-center justify-center gap-4 mb-20">
+        <AnimatedSection className="flex items-center justify-center gap-4 mb-16">
           <span className={`text-sm font-medium ${!annual ? "text-foreground" : "text-muted-foreground"}`}>Monthly</span>
           <button
             onClick={() => setAnnual(!annual)}
@@ -174,8 +178,8 @@ export function PricingSection() {
         </div>
 
         <AnimatedSection className="text-center mt-12">
-          <p className="text-sm text-muted-foreground font-light">
-            All plans include a 14-day free trial. No credit card required.
+          <p className="text-sm font-medium" style={{ color: '#f97415' }}>
+            All plans include a 14-day free trial.
           </p>
         </AnimatedSection>
       </div>

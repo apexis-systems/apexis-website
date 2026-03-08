@@ -7,12 +7,12 @@ const steps = [
   { icon: Database, label: "Recorded in APEXIS" },
   { icon: FileText, label: "Structured Documentation" },
   { icon: BarChart3, label: "Professional Reports" },
-  { icon: Share2, label: "Shared With Stakeholders" },
+  { icon: Share2, label: "Shared With Clients" },
 ];
 
 export function WorkflowFitSection() {
   return (
-    <section className="py-32 lg:py-40">
+    <section className="py-20 lg:py-28">
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <AnimatedSection className="text-center mb-6">
           <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
@@ -26,8 +26,7 @@ export function WorkflowFitSection() {
           </p>
         </AnimatedSection>
 
-        {/* Horizontal workflow */}
-        <AnimatedSection delay={0.2} className="my-20">
+        <AnimatedSection delay={0.2} className="my-16">
           <div className="flex flex-col lg:flex-row items-center justify-center gap-3 lg:gap-0">
             {steps.map((step, i) => (
               <div key={step.label} className="flex flex-col lg:flex-row items-center gap-3 lg:gap-0">
@@ -39,7 +38,7 @@ export function WorkflowFitSection() {
                   className="flex flex-col items-center gap-3 min-w-[120px]"
                 >
                   <div className="w-14 h-14 rounded-xl border border-border/60 bg-card flex items-center justify-center">
-                    <step.icon className="w-5 h-5 text-foreground/60" strokeWidth={1.5} />
+                    <step.icon className="w-5 h-5" style={{ color: '#f97415' }} strokeWidth={1.5} />
                   </div>
                   <span className="text-xs font-medium text-foreground text-center">{step.label}</span>
                 </motion.div>

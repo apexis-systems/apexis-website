@@ -3,9 +3,9 @@ import { MessageCircle, Image, FileText, LayoutDashboard } from "lucide-react";
 
 export function DifferentiationSection() {
   return (
-    <section className="py-32 lg:py-40 bg-card/30">
+    <section className="py-20 lg:py-28 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8">
-        <AnimatedSection className="text-center max-w-3xl mx-auto mb-20">
+        <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.1]">
             Built for the Field.{" "}
             <span className="text-gradient-gold">Not Just the Office.</span>
@@ -53,7 +53,7 @@ export function DifferentiationSection() {
               <div className="space-y-6">
                 <div className="rounded-lg p-4 border border-foreground/5">
                   <div className="flex items-center gap-3 mb-3">
-                    <FileText className="w-4 h-4 text-foreground/40" strokeWidth={1.5} />
+                    <FileText className="w-4 h-4" style={{ color: '#f97415' }} strokeWidth={1.5} />
                     <span className="text-sm font-medium text-foreground/60">Structured Reports</span>
                   </div>
                   <div className="space-y-2">
@@ -68,7 +68,7 @@ export function DifferentiationSection() {
                 </div>
                 <div className="rounded-lg p-4 border border-foreground/5">
                   <div className="flex items-center gap-3 mb-3">
-                    <LayoutDashboard className="w-4 h-4 text-foreground/40" strokeWidth={1.5} />
+                    <LayoutDashboard className="w-4 h-4" style={{ color: '#f97415' }} strokeWidth={1.5} />
                     <span className="text-sm font-medium text-foreground/60">Organized Dashboard</span>
                   </div>
                   <div className="grid grid-cols-2 gap-2">

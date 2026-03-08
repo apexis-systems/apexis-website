@@ -14,15 +14,15 @@ const after = [
   "Structured project updates",
   "Timestamped site records",
   "Instant reporting for decision makers",
-  "Professional communication with stakeholders",
+  "Professional communication with clients",
   "Exportable handover documentation",
 ];
 
 export function BeforeAfterSection() {
   return (
-    <section className="py-32 lg:py-40 bg-card/30">
+    <section className="py-20 lg:py-28 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
-        <AnimatedSection className="text-center mb-20">
+        <AnimatedSection className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.1]">
             Before APEXIS vs <span className="text-gradient-gold">After APEXIS</span>
           </h2>
