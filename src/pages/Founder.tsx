@@ -51,8 +51,8 @@ const Founder = () => {
             </div>
           </AnimatedSection>
 
-          <AnimatedSection delay={0.2} className="mt-8">
-            <div className="border-t border-border pt-8">
+          <AnimatedSection delay={0.2} className="mt-4">
+            <div className="border-t border-border pt-4">
               <h3 className="text-xl font-display font-bold text-foreground mb-1">
                 Mirza Naseer Ahmed Baig
               </h3>
