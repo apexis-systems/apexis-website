@@ -60,7 +60,7 @@ const Founder = () => {
           <AnimatedSection delay={0.2} className="mt-8">
             <div className="border-l-2 border-accent pl-6 space-y-4">
               <p className="text-lg font-display font-semibold text-foreground">
-                APEXIS is not just a tool.
+                <span style={{ color: '#f97415' }}>APEXIS</span> is not just a tool.
               </p>
               <p className="text-lg font-display font-semibold text-foreground">
                 It is a step towards modernizing the construction experience.
