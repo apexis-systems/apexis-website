@@ -15,7 +15,7 @@ export function WhatApexisDoesSection() {
       <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
         <AnimatedSection className="text-center mb-16">
           <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
-            What APEXIS Actually Does
+            What <span style={{ color: '#f97415' }}>APEXIS</span> Actually Does
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-4 leading-[1.1]">
             Construction Reporting Infrastructure
