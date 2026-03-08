@@ -18,6 +18,7 @@ const plans = [
       "5GB Storage",
       "One-time purchase",
       "Snag List Feature",
+      "Drawings Release to Site",
       "Multi-lingual Support (English, Hindi & Telugu)",
     ],
     cta: "Buy Now",
