@@ -59,7 +59,7 @@ export function SocialIconsSection() {
     <section className="py-8">
       <div className="container mx-auto px-4 lg:px-8 text-center">
         <AnimatedSection>
-          <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-2">
+          <p className="text-xs font-bold tracking-widest uppercase mb-2" style={{ color: '#f97415' }}>
             Connect With APEXIS
           </p>
           <p className="text-sm text-muted-foreground font-light mb-8 max-w-md mx-auto">

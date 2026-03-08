@@ -14,7 +14,7 @@ export function FinalCTA({ onOpenSignup }: FinalCTAProps) {
             Stop Managing Chaos.{" "}
             <span className="text-gradient-gold">Start Leading at the Apex.</span>
           </h2>
-          <p className="text-surface-dark-foreground/40 mb-10 text-sm font-light">
+          <p className="mb-10 text-sm font-bold" style={{ color: '#f97415' }}>
             Private beta closing soon.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
