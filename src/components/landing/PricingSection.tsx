@@ -78,6 +78,7 @@ const plans = [
       "Dedicated Support",
       "Custom Integrations",
       "Above 100GB Storage",
+      "Snag List Feature",
       "Multi-lingual Support (English, Hindi & Telugu)",
     ],
     cta: "Contact Sales",
