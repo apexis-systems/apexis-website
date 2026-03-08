@@ -31,7 +31,7 @@ export function OriginSection() {
               <span style={{ color: '#f97415' }}>APEXIS</span> was created to address this gap.
             </p>
             <p>
-              Built with deep insights from architectural practice and real project experience, APEXIS is designed to support architects, interior designers, contractors, developers, and clients throughout the lifecycle of a construction project.
+              Built with deep insights from architectural practice and real project experience, <span style={{ color: '#f97415' }}>APEXIS</span> is designed to support architects, interior designers, contractors, developers, and clients throughout the lifecycle of a construction project.
             </p>
             <p>
               APEXIS aims to bring technology-driven clarity, accountability, and organized communication into construction projects.
