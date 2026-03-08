@@ -28,7 +28,7 @@ export function SolutionSection() {
       <div className="container mx-auto px-4 lg:px-8">
         <AnimatedSection className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-4 leading-[1.1]">
-            How <span style={{ color: '#f97415' }}>APEXIS</span> Works
+            How <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> Works
           </h2>
         </AnimatedSection>
 

@@ -22,7 +22,7 @@ export function WorkflowFitSection() {
             A Platform Built Around Real Construction Workflows
           </h2>
           <p className="text-lg text-muted-foreground font-light max-w-2xl mx-auto leading-relaxed">
-            <span style={{ color: '#f97415' }}>APEXIS</span> does not replace your existing tools. It adds a structured reporting layer to your project execution.
+            <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> does not replace your existing tools. It adds a structured reporting layer to your project execution.
           </p>
         </AnimatedSection>
 
@@ -60,7 +60,7 @@ export function WorkflowFitSection() {
             <p>Project leaders maintain visibility.</p>
           </div>
           <p className="mt-8 text-muted-foreground font-light leading-relaxed">
-            <span style={{ color: '#f97415' }}>APEXIS</span> simply ensures that every update becomes a structured record that can be reported, tracked, and shared professionally.
+            <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> simply ensures that every update becomes a structured record that can be reported, tracked, and shared professionally.
           </p>
         </AnimatedSection>
       </div>

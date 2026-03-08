@@ -18,7 +18,7 @@ export function ClientHandoverSection() {
             <span className="text-gradient-gold">Handover Documentation</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed text-lg font-light">
-            <span style={{ color: '#f97415' }}>APEXIS</span> allows contractors and consultants to export project records into structured handover documents.
+            <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> allows contractors and consultants to export project records into structured handover documents.
           </p>
         </AnimatedSection>
 

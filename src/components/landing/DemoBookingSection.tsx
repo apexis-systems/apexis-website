@@ -28,7 +28,7 @@ export function DemoBookingSection() {
             See How Structured Reporting Changes Construction Projects.
           </h2>
           <p className="text-muted-foreground font-light leading-relaxed">
-            Book a private walkthrough of <span style={{ color: '#f97415' }}>APEXIS</span> and experience how construction teams can record, report, and release project updates with clarity.
+            Book a private walkthrough of <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> and experience how construction teams can record, report, and release project updates with clarity.
           </p>
         </AnimatedSection>
 
