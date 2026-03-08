@@ -32,7 +32,7 @@ const Founder = () => {
             <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
               Founder
             </span>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-10 leading-[1.1]">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 leading-[1.1]">
               From Architectural Practice to Construction Technology
             </h1>
           </AnimatedSection>
