@@ -5,7 +5,7 @@ export function AboutSection() {
     <section id="about" className="py-32 lg:py-40">
       <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
         <AnimatedSection>
-          <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">About <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span></span>
+          <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">About <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span></span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-8 leading-[1.1]">
             Built for Clarity in Construction.
           </h2>
