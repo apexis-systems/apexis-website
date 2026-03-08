@@ -2,8 +2,8 @@ import { AnimatedSection } from "./AnimatedSection";
 
 export function OriginSection() {
   return (
-    <section className="py-20 lg:py-28 bg-card/30">
-      <div className="container mx-auto px-4 lg:px-8 max-w-3xl">
+    <section className="py-12 lg:py-16 bg-card/30">
+      <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <AnimatedSection>
           <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
             The Origin
