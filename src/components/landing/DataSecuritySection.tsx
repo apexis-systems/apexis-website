@@ -52,7 +52,7 @@ export function DataSecuritySection() {
         </div>
 
         <AnimatedSection delay={0.45} className="text-center">
-          <p className="text-base md:text-lg font-display font-bold">
+          <p className="text-base md:text-lg font-display font-bold" style={{ color: '#f97415' }}>
             Your construction data is never sold, shared, or used for advertising.
           </p>
         </AnimatedSection>
