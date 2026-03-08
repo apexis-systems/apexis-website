@@ -56,7 +56,7 @@ const plans = [
       "100GB Storage",
       "Media Documentation",
       "Priority Support",
-      "Multi-lingual Support (EN, HI, TE)",
+      "Multi-lingual Support (English, Hindi & Telugu)",
     ],
     cta: "Upgrade to Pro",
     highlighted: true,
