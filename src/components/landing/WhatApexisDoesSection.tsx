@@ -21,7 +21,7 @@ export function WhatApexisDoesSection() {
             Construction Reporting Infrastructure
           </h2>
           <p className="text-lg text-muted-foreground font-light max-w-2xl mx-auto leading-relaxed">
-            <span style={{ color: '#f97415' }}>APEXIS</span> transforms informal site communication into structured, professional project documentation.
+            <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> transforms informal site communication into structured, professional project documentation.
           </p>
         </AnimatedSection>
 
