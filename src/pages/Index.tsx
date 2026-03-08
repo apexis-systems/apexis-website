@@ -41,7 +41,11 @@ const Index = () => {
       {/* 2. The Problem */}
       <ProblemSection />
       <SectionDivider />
-      
+
+      {/* 2b. The Origin of APEXIS */}
+      <OriginSection />
+      <SectionDivider />
+
       {/* 3. What APEXIS Actually Does */}
       <WhatApexisDoesSection />
       <SectionDivider />
