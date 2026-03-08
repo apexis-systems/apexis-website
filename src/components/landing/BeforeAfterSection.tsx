@@ -57,7 +57,7 @@ export function BeforeAfterSection() {
               transition={{ duration: 0.6 }}
               className="rounded-xl border border-foreground/10 bg-foreground/[0.02] p-8 h-full"
             >
-              <h3 className="font-display font-bold text-lg mb-8" style={{ color: '#f97415' }}>After <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span></h3>
+              <h3 className="font-display font-bold text-lg mb-8" style={{ color: '#f97415' }}>After <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span></h3>
               <div className="space-y-5">
                 {after.map((item) => (
                   <div key={item} className="flex items-start gap-3 pb-5 border-b border-border/40 last:border-0 last:pb-0">

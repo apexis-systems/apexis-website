@@ -18,7 +18,7 @@ export function AccountabilitySection() {
             <span className="text-gradient-gold">a Record</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed font-light">
-            Construction projects require accountability. <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> creates a verifiable record of execution.
+            Construction projects require accountability. <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> creates a verifiable record of execution.
           </p>
         </AnimatedSection>
 

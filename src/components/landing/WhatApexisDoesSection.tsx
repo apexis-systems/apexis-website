@@ -66,7 +66,7 @@ export function WhatApexisDoesSection() {
 
         <AnimatedSection delay={0.4} className="text-center max-w-2xl mx-auto">
           <p className="text-muted-foreground leading-relaxed font-light">
-            Instead of relying on scattered updates across chat platforms, <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> records project activity in a structured format and generates clear reports for decision makers.
+            Instead of relying on scattered updates across chat platforms, <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> records project activity in a structured format and generates clear reports for decision makers.
           </p>
         </AnimatedSection>
       </div>

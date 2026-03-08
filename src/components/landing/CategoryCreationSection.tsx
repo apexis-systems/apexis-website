@@ -83,7 +83,7 @@ export function CategoryCreationSection() {
 
         <AnimatedSection className="text-center max-w-2xl mx-auto">
           <p className="font-display font-semibold text-base mb-2">
-            <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> is not another project management tool.
+            <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> is not another project management tool.
           </p>
           <p className="text-muted-foreground font-light mb-8">
             It is the reporting infrastructure construction projects have been missing.

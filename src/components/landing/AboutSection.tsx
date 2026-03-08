@@ -17,7 +17,7 @@ export function AboutSection() {
               Modern construction teams rely heavily on informal communication. But serious projects require documented progress, structured updates, and decision-ready visibility.
             </p>
             <p>
-              <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> transforms site activity into recorded, categorized, and professionally reportable data — giving architects, contractors, and project directors operational control.
+              <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> transforms site activity into recorded, categorized, and professionally reportable data — giving architects, contractors, and project directors operational control.
             </p>
           </div>
           <p className="mt-10 text-2xl font-display font-bold text-gradient-gold">

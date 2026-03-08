@@ -24,7 +24,7 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
             <span style={{ color: '#f97415' }}>WhatsApp Updates.</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed font-light">
-            <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> is the structured execution layer for modern construction and design teams.
+            <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> is the structured execution layer for modern construction and design teams.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button variant="hero" size="lg" onClick={onOpenSignup}>

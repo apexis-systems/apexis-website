@@ -60,7 +60,7 @@ export function WorkflowFitSection() {
             <p>Project leaders maintain visibility.</p>
           </div>
           <p className="mt-8 text-muted-foreground font-light leading-relaxed">
-            <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> simply ensures that every update becomes a structured record that can be reported, tracked, and shared professionally.
+            <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> simply ensures that every update becomes a structured record that can be reported, tracked, and shared professionally.
           </p>
         </AnimatedSection>
       </div>

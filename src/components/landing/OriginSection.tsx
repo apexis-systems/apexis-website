@@ -28,7 +28,7 @@ export function OriginSection() {
               <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> solves this by providing a centralized platform that helps architects, interior designers, contractors, developers, and clients track project progress and stay aligned throughout the lifecycle of a construction project.
             </p>
             <p>
-              By bringing structured communication and technology into construction management, <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> aims to create greater transparency, clarity, and accountability for everyone involved — from clients to professionals.
+              By bringing structured communication and technology into construction management, <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> aims to create greater transparency, clarity, and accountability for everyone involved — from clients to professionals.
             </p>
           </div>
         </AnimatedSection>

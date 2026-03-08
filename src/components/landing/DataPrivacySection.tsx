@@ -14,7 +14,7 @@ export function DataPrivacySection() {
           </h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed text-lg font-light">
             <p>Your project data is entirely yours.</p>
-            <p>Even the <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> platform administrators cannot access it.</p>
+            <p>Even the <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> platform administrators cannot access it.</p>
             <p>Your documentation, project history, and records remain fully private and under your control.</p>
           </div>
           <div className="flex items-center justify-center gap-2 mt-10">

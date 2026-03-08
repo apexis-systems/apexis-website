@@ -56,7 +56,7 @@ export default function Login() {
         >
           <Card className="shadow-lg border-border/50">
             <CardHeader className="text-center pb-2">
-              <Link to="/" className="font-display text-2xl font-bold tracking-tight mb-4 block" style={{ color: '#f97415' }}>
+              <Link to="/" className="font-display text-2xl font-bold tracking-tight mb-4 block" style={{ color: '#111111' }}>
                 APEXIS
               </Link>
               <h1 className="text-2xl font-display font-bold">Welcome Back</h1>

@@ -29,7 +29,7 @@ export function PriorityNotificationsSection() {
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed font-light mb-8">
               <p>Construction projects lose time and money when critical communication is missed.</p>
-              <p><span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> notifications are structured, priority alerts — not casual chat messages.</p>
+              <p><span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> notifications are structured, priority alerts — not casual chat messages.</p>
               <p>Every notification signals an actionable update that requires attention.</p>
             </div>
             <ul className="space-y-3 mb-8">
