@@ -34,7 +34,7 @@ export function OriginSection() {
               Built with deep insights from architectural practice and real project experience, <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> is designed to support architects, interior designers, contractors, developers, and clients throughout the lifecycle of a construction project.
             </p>
             <p>
-              <span style={{ color: '#f97415' }}>APEXIS</span> aims to bring technology-driven clarity, accountability, and organized communication into construction projects.
+              <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> aims to bring technology-driven clarity, accountability, and organized communication into construction projects.
             </p>
             <p>
               By creating a centralized platform for updates and progress tracking, <span style={{ color: '#f97415' }}>APEXIS</span> helps ensure that everyone involved in a project — from clients to professionals — stays aligned and informed.
