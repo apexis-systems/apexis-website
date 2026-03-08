@@ -17,7 +17,7 @@ const plans = [
       "Basic Reporting",
       "5GB Storage",
       "One-time purchase",
-      "Multi-lingual Support (EN, HI, TE)",
+      "Multi-lingual Support (English, Hindi & Telugu)",
     ],
     cta: "Buy Now",
     highlighted: false,
@@ -113,7 +113,7 @@ export function PricingSection() {
             />
           </button>
           <span className={`text-sm font-medium ${annual ? "text-foreground" : "text-muted-foreground"}`}>
-            Annual <span className="text-xs font-medium" style={{ color: '#e98b06' }}>(Save 35%)</span>
+            Annual <span className="text-xs font-medium" style={{ color: '#f97415' }}>(Save 35%)</span>
           </span>
         </AnimatedSection>
 
