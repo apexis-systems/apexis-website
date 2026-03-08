@@ -34,7 +34,7 @@ export function ProblemSection() {
         </div>
 
         <AnimatedSection delay={0.4} className="text-center mt-12">
-          <p className="text-lg italic font-light" style={{ color: '#f97415' }}>
+          <p className="text-lg italic font-semibold" style={{ color: '#f97415' }}>
             "WhatsApp Was Built for Personal Communication — Not Construction Projects."
           </p>
         </AnimatedSection>
