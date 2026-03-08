@@ -34,7 +34,12 @@ export default function Login() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* Language selector */}
-      <div className="flex justify-end p-4 gap-2">
+      <div className="flex items-center justify-between p-4">
+        <Link to="/" className="flex items-center gap-1.5 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+          <ArrowLeft className="w-4 h-4" />
+          Back to Home
+        </Link>
+        <div className="flex gap-2">
         {languages.map((l) => (
           <button
             key={l}
