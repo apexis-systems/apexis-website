@@ -28,7 +28,7 @@ export function OriginSection() {
               Over time, it became clear that the industry needed a more structured and transparent way to track project progress.
             </p>
             <p className="font-medium" style={{ color: '#f97415' }}>
-              <span style={{ color: '#f97415' }}>APEXIS</span> was created to address this gap.
+              <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> was created to address this gap.
             </p>
             <p>
               Built with deep insights from architectural practice and real project experience, <span style={{ color: '#f97415' }}>APEXIS</span> is designed to support architects, interior designers, contractors, developers, and clients throughout the lifecycle of a construction project.
