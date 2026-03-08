@@ -2,19 +2,19 @@ import { AnimatedSection } from "./AnimatedSection";
 
 export function OriginSection() {
   return (
-    <section className="py-20 lg:py-28 bg-card/30">
-      <div className="container mx-auto px-4 lg:px-8 max-w-3xl">
+    <section className="py-12 lg:py-16 bg-card/30">
+      <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <AnimatedSection>
           <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
             The Origin
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-10 leading-[1.1]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 leading-[1.1]">
             The Origin of APEXIS
           </h2>
         </AnimatedSection>
 
         <AnimatedSection delay={0.1}>
-          <div className="space-y-6 text-muted-foreground leading-relaxed text-lg font-light">
+          <div className="space-y-4 text-muted-foreground leading-relaxed text-base font-light">
             <p>
               APEXIS was born out of years of real-world experience in the architecture and construction industry.
             </p>
@@ -27,7 +27,7 @@ export function OriginSection() {
             <p>
               Over time, it became clear that the industry needed a more structured and transparent way to track project progress.
             </p>
-            <p className="text-foreground font-medium">
+            <p className="font-medium" style={{ color: '#f97415' }}>
               APEXIS was created to address this gap.
             </p>
             <p>
