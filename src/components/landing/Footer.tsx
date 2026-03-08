@@ -18,7 +18,7 @@ export function Footer() {
               <div className="flex flex-col gap-3 text-sm text-muted-foreground font-light">
                 <a href="#solution" className="hover:text-foreground transition-colors">How It Works</a>
                 <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
-                <a href="#" className="hover:text-foreground transition-colors">Security</a>
+                
                 <a href="#about" className="hover:text-foreground transition-colors">About <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span></a>
               </div>
             </div>
