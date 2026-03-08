@@ -3,6 +3,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { ScrollProgress } from "@/components/landing/ScrollProgress";
 import { HeroSection } from "@/components/landing/HeroSection";
 import { ProblemSection } from "@/components/landing/ProblemSection";
+import { OriginSection } from "@/components/landing/OriginSection";
 import { WhatApexisDoesSection } from "@/components/landing/WhatApexisDoesSection";
 import { TheShiftSection } from "@/components/landing/TheShiftSection";
 import { SolutionSection } from "@/components/landing/SolutionSection";
