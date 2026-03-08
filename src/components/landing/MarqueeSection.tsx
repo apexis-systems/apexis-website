@@ -23,7 +23,8 @@ export function MarqueeSection() {
           {[...companies, ...companies].map((name, i) => (
             <div
               key={i}
-              className="mx-8 lg:mx-12 flex-shrink-0 text-xl lg:text-2xl font-display font-bold text-foreground/10 hover:text-foreground/20 transition-colors duration-300 select-none"
+              className="mx-8 lg:mx-12 flex-shrink-0 text-xl lg:text-2xl font-display font-bold transition-colors duration-300 select-none"
+              style={{ color: '#f97415', opacity: 0.25 }}
             >
               {name}
             </div>
