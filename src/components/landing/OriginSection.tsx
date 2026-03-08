@@ -1,0 +1,55 @@
+import { AnimatedSection } from "./AnimatedSection";
+
+export function OriginSection() {
+  return (
+    <section className="py-20 lg:py-28 bg-card/30">
+      <div className="container mx-auto px-4 lg:px-8 max-w-3xl">
+        <AnimatedSection>
+          <span className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-6 block">
+            The Origin
+          </span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-10 leading-[1.1]">
+            The Origin of APEXIS
+          </h2>
+        </AnimatedSection>
+
+        <AnimatedSection delay={0.1}>
+          <div className="space-y-6 text-muted-foreground leading-relaxed text-lg font-light">
+            <p>
+              APEXIS was born out of years of real-world experience in the architecture and construction industry.
+            </p>
+            <p>
+              While working on multiple residential and commercial projects, one challenge appeared repeatedly — clients and professionals often struggled to clearly understand the real-time progress of their projects. Updates were scattered across calls, messages, site visits, and informal communication, making it difficult for everyone to stay fully informed.
+            </p>
+            <p>
+              Even for architects, interior designers, contractors, and project teams, coordinating updates and maintaining clear communication across different agencies could become complicated and time-consuming.
+            </p>
+            <p>
+              Over time, it became clear that the industry needed a more structured and transparent way to track project progress.
+            </p>
+            <p className="text-foreground font-medium">
+              APEXIS was created to address this gap.
+            </p>
+            <p>
+              Built with deep insights from architectural practice and real project experience, APEXIS is designed to support architects, interior designers, contractors, developers, and clients throughout the lifecycle of a construction project.
+            </p>
+            <p>
+              APEXIS aims to bring technology-driven clarity, accountability, and organized communication into construction projects.
+            </p>
+            <p>
+              By creating a centralized platform for updates and progress tracking, APEXIS helps ensure that everyone involved in a project — from clients to professionals — stays aligned and informed.
+            </p>
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection delay={0.2} className="mt-10">
+          <div className="border-l-2 border-accent pl-6">
+            <p className="text-lg font-display font-semibold text-foreground leading-relaxed">
+              At its core, APEXIS is driven by a simple vision: Construction projects should be easy to understand & to make construction progress visible, organized, and reliable for everyone involved.
+            </p>
+          </div>
+        </AnimatedSection>
+      </div>
+    </section>
+  );
+}
