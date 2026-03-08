@@ -62,7 +62,10 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
         <a href="#" className="flex items-center gap-3">
           <img src={apexisLogo} alt="APEXIS logo" className="h-[50px] w-[50px] object-contain" />
-          <span className="font-brand text-4xl tracking-wide">APEXIS</span>
+          <div className="flex flex-col">
+            <span className="font-brand text-4xl tracking-wide leading-none">APEXIS</span>
+            <span className="text-[0.45rem] font-bold tracking-[0.25em] text-muted-foreground leading-none mt-0.5">RECORD . REPORT . RELEASE .</span>
+          </div>
         </a>
 
         {/* Desktop nav */}
