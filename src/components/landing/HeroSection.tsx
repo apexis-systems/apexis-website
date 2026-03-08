@@ -20,7 +20,7 @@ export function HeroSection({ onOpenSignup }: HeroProps) {
             Currently onboarding select pilot firms
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-bold leading-[1.08] tracking-tight mb-6">
-            Your Projects Deserve Better Than{" "}
+            Your Projects Deserve <span style={{ color: '#f97415' }}>Better</span> Than{" "}
             <span style={{ color: '#f97415' }}>WhatsApp Updates.</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-lg mb-10 leading-relaxed font-light">
