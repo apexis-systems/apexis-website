@@ -16,7 +16,7 @@ export function OriginSection() {
         <AnimatedSection delay={0.1}>
           <div className="space-y-4 text-muted-foreground leading-relaxed text-base font-light">
             <p>
-              APEXIS was born out of years of real-world experience in the architecture and construction industry.
+              <span style={{ color: '#f97415' }}>APEXIS</span> was born out of years of real-world experience in the architecture and construction industry.
             </p>
             <p>
               While working on multiple residential and commercial projects, one challenge appeared repeatedly — clients and professionals often struggled to clearly understand the real-time progress of their projects. Updates were scattered across calls, messages, site visits, and informal communication, making it difficult for everyone to stay fully informed.
