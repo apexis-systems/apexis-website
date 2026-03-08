@@ -9,7 +9,7 @@ export function OriginSection() {
             The Origin
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6 leading-[1.1]">
-            The Origin of <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span>
+            The Origin of <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span>
           </h2>
         </AnimatedSection>
 
