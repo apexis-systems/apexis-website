@@ -40,7 +40,7 @@ const Founder = () => {
           <AnimatedSection delay={0.1}>
             <div className="space-y-4 text-muted-foreground leading-relaxed text-base font-light">
               <p>
-                The founder of <span style={{ color: '#f97415' }}>APEXIS</span> is an architect with over a decade of professional experience in the architecture and construction industry, having worked extensively on both residential and commercial projects from concept development to final execution and handover.
+                The founder of <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> is an architect with over a decade of professional experience in the architecture and construction industry, having worked extensively on both residential and commercial projects from concept development to final execution and handover.
               </p>
               <p>
                 From 2016 to 2026, he was associated with <span className="font-bold text-foreground">Samar Ramachandra Associates</span>, where he progressed to the role of <span className="font-bold text-foreground">Senior Associate Architect</span>. During his time at the firm, he played a key role in leading multiple projects and managing project teams, eventually heading projects as a <span className="font-bold text-foreground">Studio Head</span>.
