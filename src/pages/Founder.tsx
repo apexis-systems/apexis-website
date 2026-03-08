@@ -63,7 +63,7 @@ const Founder = () => {
                 APEXIS is not just a tool.
               </p>
               <p className="text-lg font-display font-semibold text-foreground">
-                It is a step toward modernizing the construction experience.
+                It is a step towards modernizing the construction experience.
               </p>
             </div>
           </AnimatedSection>
