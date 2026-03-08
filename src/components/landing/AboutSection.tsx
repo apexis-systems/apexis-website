@@ -11,7 +11,7 @@ export function AboutSection() {
           </h2>
           <div className="space-y-5 text-muted-foreground leading-relaxed text-lg font-light">
             <p>
-              <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> was created to solve a structural problem in construction projects — the lack of organized, accountable reporting.
+              <span className="font-bold" style={{ color: '#111111' }}>APEXIS</span> was created to solve a structural problem in construction projects — the lack of organized, accountable reporting.
             </p>
             <p>
               Modern construction teams rely heavily on informal communication. But serious projects require documented progress, structured updates, and decision-ready visibility.
