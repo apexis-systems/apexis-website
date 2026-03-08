@@ -45,7 +45,7 @@ export function OriginSection() {
         <AnimatedSection delay={0.2} className="mt-10">
           <div className="border-l-2 border-accent pl-6">
             <p className="text-lg font-display font-semibold text-foreground leading-relaxed">
-              At its core, APEXIS is driven by a simple vision: Construction projects should be easy to understand & to make construction progress visible, organized, and reliable for everyone involved.
+              At its core, <span style={{ color: '#f97415' }}>APEXIS</span> is driven by a simple vision: Construction projects should be easy to understand & to make construction progress visible, organized, and reliable for everyone involved.
             </p>
           </div>
         </AnimatedSection>

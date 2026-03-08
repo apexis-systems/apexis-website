@@ -74,7 +74,7 @@ const Founder = () => {
                 Mirza Naseer Ahmed Baig
               </h3>
               <p className="text-sm font-medium" style={{ color: '#f97415' }}>
-                Founder, APEXIS.
+                Founder, <span style={{ color: '#f97415' }}>APEXIS</span>.
               </p>
               <p className="text-sm text-muted-foreground mt-1">
                 Architect | Industry Experience: 10+ Years

@@ -61,7 +61,7 @@ export function TrustInfrastructureSection() {
         </div>
 
         <AnimatedSection className="text-center mt-20 max-w-2xl mx-auto">
-          <p className="font-display font-semibold text-base mb-2">APEXIS is not another messaging tool.</p>
+          <p className="font-display font-semibold text-base mb-2"><span style={{ color: '#f97415' }}>APEXIS</span> is not another messaging tool.</p>
           <p className="text-muted-foreground font-light">
             It is operational infrastructure for construction execution.
           </p>
