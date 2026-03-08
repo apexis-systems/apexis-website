@@ -40,35 +40,21 @@ const Founder = () => {
           <AnimatedSection delay={0.1}>
             <div className="space-y-4 text-muted-foreground leading-relaxed text-base font-light">
               <p>
-                The founder of <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> is an architect with over a decade of professional experience in the architecture and construction industry, having worked extensively on both residential and commercial projects from concept development to final execution and handover.
+                The founder of <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> is an architect with over a decade of experience in the architecture and construction industry, working on both residential and commercial projects from concept development to final execution.
               </p>
               <p>
-                From 2016 to 2026, he was associated with <span className="font-bold text-foreground">Samar Ramachandra Associates</span>, where he progressed to the role of <span className="font-bold text-foreground">Senior Associate Architect</span>. During his time at the firm, he played a key role in leading multiple projects and managing project teams, eventually heading projects as a <span className="font-bold text-foreground">Studio Head</span>.
+                From 2016 to 2026, he worked at <span className="font-bold text-foreground">Samar Ramachandra Associates</span>, where he rose to the position of <span className="font-bold text-foreground">Senior Associate Architect</span> and later led projects as a <span className="font-bold text-foreground">Studio Head</span>. During this time, he managed the full lifecycle of multiple projects, from initial design vision to overseeing design development, on-site coordination, and project delivery.
               </p>
               <p>
-                His work involved overseeing the complete lifecycle of projects — from initial design vision and planning to on-site coordination and project delivery, ensuring that design intent translated seamlessly into built reality.
+                He also mentored intern architects, helping bridge the gap between academic learning and professional practice.
               </p>
               <p>
-                Alongside professional practice, he has also been actively involved in mentoring architecture students, guiding interns who joined the studio each year and helping them gain practical exposure to the profession.
-              </p>
-              <p>
-                With years of experience navigating the complexities of construction projects, he founded <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> with the goal of bringing greater transparency, structure, and technological efficiency to project management within the built environment.
+                Drawing from years of real-world project experience, he founded <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> to bring greater transparency, structure, and technology-driven efficiency to construction storage documentation and tracking.
               </p>
             </div>
           </AnimatedSection>
 
           <AnimatedSection delay={0.2} className="mt-8">
-            <div className="border-l-2 border-accent pl-6 space-y-4">
-              <p className="text-lg font-display font-semibold text-foreground">
-                <span className="font-bold" style={{ color: '#f97415' }}>APEXIS</span> is not just a tool.
-              </p>
-              <p className="text-lg font-display font-semibold text-foreground">
-                It is a step towards modernizing the construction experience.
-              </p>
-            </div>
-          </AnimatedSection>
-
-          <AnimatedSection delay={0.3} className="mt-10">
             <div className="border-t border-border pt-8">
               <h3 className="text-xl font-display font-bold text-foreground mb-1">
                 Mirza Naseer Ahmed Baig
