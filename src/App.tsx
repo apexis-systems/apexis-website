@@ -12,6 +12,7 @@ import NotFound from "./pages/NotFound";
 import Founder from "./pages/Founder";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
+import Contact from "./pages/Contact";
 
 const queryClient = new QueryClient();
 
