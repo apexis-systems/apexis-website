@@ -24,7 +24,7 @@ const features = [
 
 export function DataSecuritySection() {
   return (
-    <section id="data-security" className="py-24 lg:py-32">
+    <section id="data-security" className="py-14 lg:py-20">
       <div className="container mx-auto px-4 lg:px-8 max-w-6xl">
         <AnimatedSection className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold tracking-tight mb-4">

@@ -95,7 +95,7 @@ export function PricingSection() {
   const [annual, setAnnual] = useState(false);
 
   return (
-    <section id="pricing" className="py-20 lg:py-28">
+    <section id="pricing" className="py-12 lg:py-16">
       <div className="container mx-auto px-4 lg:px-8">
         <AnimatedSection className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-4 leading-[1.1]">

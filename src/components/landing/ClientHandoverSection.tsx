@@ -10,7 +10,7 @@ const benefits = [
 
 export function ClientHandoverSection() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="py-12 lg:py-16">
       <div className="container mx-auto px-4 lg:px-8 max-w-5xl">
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4 leading-[1.1]">

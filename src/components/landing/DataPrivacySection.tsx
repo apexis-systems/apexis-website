@@ -3,7 +3,7 @@ import { Lock, Shield } from "lucide-react";
 
 export function DataPrivacySection() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="py-12 lg:py-16">
       <div className="container mx-auto px-4 lg:px-8 max-w-3xl text-center">
         <AnimatedSection>
           <div className="w-14 h-14 rounded-xl border border-border/60 bg-card flex items-center justify-center mx-auto mb-8">

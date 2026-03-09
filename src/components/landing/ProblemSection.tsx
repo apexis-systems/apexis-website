@@ -10,7 +10,7 @@ const problems = [
 
 export function ProblemSection() {
   return (
-    <section id="problem" className="py-20 lg:py-28">
+    <section id="problem" className="py-12 lg:py-16">
       <div className="container mx-auto px-4 lg:px-8">
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-4 leading-[1.1]">

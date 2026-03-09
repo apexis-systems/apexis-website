@@ -11,7 +11,7 @@ const steps = [
 
 export function WhatApexisDoesSection() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="py-12 lg:py-16">
       <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
         <AnimatedSection className="text-center mb-16">
           <span className="text-xs font-bold tracking-widest uppercase mb-6 block" style={{ color: '#f97415' }}>

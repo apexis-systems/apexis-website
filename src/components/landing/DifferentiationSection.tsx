@@ -3,7 +3,7 @@ import { MessageCircle, Image, FileText, LayoutDashboard } from "lucide-react";
 
 export function DifferentiationSection() {
   return (
-    <section className="py-20 lg:py-28 bg-card/30">
+    <section className="py-12 lg:py-16 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8">
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.1]">

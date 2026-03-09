@@ -11,7 +11,7 @@ const companies = [
 
 export function MarqueeSection() {
   return (
-    <section className="py-16 overflow-hidden">
+    <section className="py-10 overflow-hidden">
       <AnimatedSection className="text-center mb-10">
         <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground">
           Trusted by Growing Project Teams

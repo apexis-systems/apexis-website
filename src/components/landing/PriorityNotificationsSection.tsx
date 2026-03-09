@@ -19,7 +19,7 @@ const benefits = [
 
 export function PriorityNotificationsSection() {
   return (
-    <section className="py-20 lg:py-28 bg-card/30">
+    <section className="py-12 lg:py-16 bg-card/30">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-20 items-center max-w-5xl mx-auto">
           <AnimatedSection>

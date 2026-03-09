@@ -10,7 +10,7 @@ const steps = [
 
 export function LearningCurveSection() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="py-12 lg:py-16">
       <div className="container mx-auto px-4 lg:px-8 max-w-4xl text-center">
         <AnimatedSection>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.08] mb-8">

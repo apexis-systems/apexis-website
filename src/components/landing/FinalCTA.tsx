@@ -7,7 +7,7 @@ interface FinalCTAProps {
 
 export function FinalCTA({ onOpenSignup }: FinalCTAProps) {
   return (
-    <section className="py-20 lg:py-28 bg-surface-dark relative overflow-hidden">
+    <section className="py-12 lg:py-16 bg-surface-dark relative overflow-hidden">
       <div className="container mx-auto px-4 lg:px-8 text-center relative z-10">
         <AnimatedSection>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-surface-dark-foreground mb-6 leading-[1.1]">
