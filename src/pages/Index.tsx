@@ -9,6 +9,7 @@ import { TheShiftSection } from "@/components/landing/TheShiftSection";
 import { SolutionSection } from "@/components/landing/SolutionSection";
 import { LearningCurveSection } from "@/components/landing/LearningCurveSection";
 import { WorkflowFitSection } from "@/components/landing/WorkflowFitSection";
+import { ProjectChatSection } from "@/components/landing/ProjectChatSection";
 import { PriorityNotificationsSection } from "@/components/landing/PriorityNotificationsSection";
 import { DifferentiationSection } from "@/components/landing/DifferentiationSection";
 import { AccountabilitySection } from "@/components/landing/AccountabilitySection";
