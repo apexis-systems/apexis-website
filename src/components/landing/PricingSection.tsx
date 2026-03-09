@@ -80,7 +80,7 @@ const plans = [
       "Custom Onboarding",
       "Dedicated Support",
       "Custom Integrations",
-      "Above 100GB Storage",
+      "Above 100GB **Cloud Storage**",
       "Snag List Feature",
       "Drawings Release to Site",
       "Multi-lingual Support (English, Hindi & Telugu)",
