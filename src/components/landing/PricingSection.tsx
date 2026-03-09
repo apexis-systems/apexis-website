@@ -15,7 +15,7 @@ const plans = [
       "Single Project Access",
       "Client Viewership",
       "Basic Reporting",
-      "5GB Storage",
+      "5GB **Cloud Storage**",
       "One-time purchase",
       "Snag List Feature",
       "Drawings Release to Site",
