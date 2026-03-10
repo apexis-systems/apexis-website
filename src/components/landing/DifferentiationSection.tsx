@@ -5,7 +5,7 @@ import { Pencil, HardHat, ClipboardList, Building2, Activity, MessageSquare, Fil
 const roles = [
   {
     icon: Pencil,
-    title: "Architects",
+    title: "Architects And Designers",
     desc: "Stay informed about site progress, design clarifications, and implementation updates without relying on fragmented message threads.",
   },
   {
