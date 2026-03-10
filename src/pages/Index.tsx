@@ -109,9 +109,8 @@ const Index = () => {
       <DataSecuritySection />
       <SectionDivider />
 
-      {/* Brand Statement */}
-      <BrandStatementSection />
-      <SectionDivider />
+
+
 
       
       {/* 17. Final Conversion */}
