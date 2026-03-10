@@ -1,7 +1,7 @@
 import { AnimatedSection } from "./AnimatedSection";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { Camera, FileText, Share2, ArrowRight } from "lucide-react";
+import { Camera, FileText, Share2, ArrowRight, ArrowDown, Ruler, Box, HardHat, Eye } from "lucide-react";
 
 const stages = [
   {
