@@ -108,7 +108,11 @@ const Index = () => {
       {/* 15b. Data Security */}
       <DataSecuritySection />
       <SectionDivider />
-      
+
+      {/* Brand Statement */}
+      <BrandStatementSection />
+      <SectionDivider />
+
       
       {/* 17. Final Conversion */}
       <FinalCTA onOpenSignup={() => setSignupOpen(true)} />
