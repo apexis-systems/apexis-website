@@ -2,7 +2,7 @@ import { AnimatedSection } from "./AnimatedSection";
 
 const testimonials = [
   {
-    name: "Daniel Carter",
+    name: "G.S. Reddy",
     role: "Principal Architect",
     quote: "APEXIS replaced our entire reporting workflow. What used to take my team 4 hours now takes 15 minutes.",
   },
