@@ -83,33 +83,8 @@ export function SolutionSection() {
           </h2>
         </AnimatedSection>
 
-        <AnimatedSection className="mb-8">
-          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-            {flow.map((step, i) => (
-              <span key={step.label} className="flex items-center gap-3 sm:gap-4">
-                <motion.span
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.2 + i * 0.15, duration: 0.5 }}
-                  className="flex items-center gap-3 px-5 py-3 rounded-xl bg-card border border-border/60"
-                >
-                  <step.icon
-                    className="w-4 h-4"
-                    style={{ color: "#f97415" }}
-                    strokeWidth={1.5}
-                  />
-                  <span className="font-display font-semibold text-sm">
-                    {step.label}
-                  </span>
-                </motion.span>
-                {i < flow.length - 1 && (
-                  <ArrowRight className="w-4 h-4 text-foreground/20" />
-                )}
-              </span>
-            ))}
-          </div>
-        </AnimatedSection>
+
+
 
         <AnimatedSection className="max-w-2xl mx-auto text-center mb-20">
           <p className="text-lg text-muted-foreground leading-relaxed font-light">
