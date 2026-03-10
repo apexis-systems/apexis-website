@@ -21,6 +21,7 @@ import { MarqueeSection } from "@/components/landing/MarqueeSection";
 import { PricingSection } from "@/components/landing/PricingSection";
 import { DataPrivacySection } from "@/components/landing/DataPrivacySection";
 import { DataSecuritySection } from "@/components/landing/DataSecuritySection";
+import { BrandStatementSection } from "@/components/landing/BrandStatementSection";
 
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { SocialIconsSection } from "@/components/landing/SocialIconsSection";
