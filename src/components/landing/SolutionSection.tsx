@@ -194,7 +194,16 @@ export function SolutionSection() {
           ))}
         </div>
 
-        {/* Horizontal flow */}
+        {/* Release supporting text */}
+        <AnimatedSection className="text-center max-w-2xl mx-auto mb-20">
+          <p className="text-muted-foreground leading-relaxed font-light mb-3">
+            <span className="font-bold" style={{ color: "#111111" }}>APEXIS</span> creates a structured bridge between the design office, the construction site, and the client.
+          </p>
+          <p className="text-muted-foreground leading-relaxed font-light">
+            This ensures that instructions, drawings, and updates reach the right people in a clear and organized manner.
+          </p>
+        </AnimatedSection>
+
         <AnimatedSection className="mb-20">
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             {flow.map((step, i) => (
