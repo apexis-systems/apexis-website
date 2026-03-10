@@ -216,13 +216,8 @@ export function SolutionSection() {
             This workflow eliminates scattered communication and transforms
             everyday site updates into structured project intelligence.
           </p>
-          <p className="text-muted-foreground leading-relaxed font-light">
-            <span className="font-bold" style={{ color: "#111111" }}>
-              APEXIS
-            </span>{" "}
-            makes documentation effortless while ensuring that project teams and
-            clients always stay aligned.
-          </p>
+
+
         </AnimatedSection>
 
         {/* Closing */}
