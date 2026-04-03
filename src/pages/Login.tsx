@@ -40,17 +40,16 @@ export default function Login() {
           Back to Home
         </Link>
         <div className="flex gap-2">
-        {languages.map((l) => (
-          <button
-            key={l}
-            onClick={() => setLang(l)}
-            className={`text-xs font-medium px-2 py-1 rounded transition-colors ${
-              lang === l ? "text-primary font-bold" : "text-muted-foreground hover:text-foreground"
-            }`}
-          >
-            {l}
-          </button>
-        ))}
+          {languages.map((l) => (
+            <button
+              key={l}
+              onClick={() => setLang(l)}
+              className={`text-xs font-medium px-2 py-1 rounded transition-colors ${lang === l ? "text-primary font-bold" : "text-muted-foreground hover:text-foreground"
+                }`}
+            >
+              {l}
+            </button>
+          ))}
         </div>
       </div>
 

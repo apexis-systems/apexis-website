@@ -17,7 +17,7 @@ const navLinks = [
   { label: "Pricing", href: "#pricing" },
   
   { label: "Founder", href: "/founder" },
-  { label: "Login", href: "/login" },
+  { label: "Login", href: "https://web.apexis.in" },
 ];
 
 export function Navbar({ onOpenSignup }: NavbarProps) {
@@ -33,6 +33,10 @@ export function Navbar({ onOpenSignup }: NavbarProps) {
 
   const handleNavClick = (href: string) => {
     setMobileOpen(false);
+    if (href.startsWith("http")) {
+      window.open(href, "_blank", "noopener,noreferrer");
+      return;
+    }
     if (href.startsWith("/")) {
       navigate(href);
     } else if (href === "#") {

@@ -147,9 +147,9 @@ export default function Signup() {
           <CardFooter className="text-center">
             <p className="text-sm text-muted-foreground w-full">
               Already have an account?{" "}
-              <Link to="/login" className="text-primary font-medium hover:underline">
+              <a href="https://web.apexis.in" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline">
                 Login
-              </Link>
+              </a>
             </p>
           </CardFooter>
         </Card>
