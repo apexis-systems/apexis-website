@@ -6,6 +6,21 @@ import { useState } from "react";
 import { SignupModal } from "@/components/landing/SignupModal";
 import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { SEO } from "@/components/common/SEO";
+
+const founderSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mirza Naseer Ahmed Baig",
+  "jobTitle": "Founder & Senior Associate Architect",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Apexis",
+    "url": "https://apexis.in"
+  },
+  "alumniOf": "Samar Ramachandra Associates",
+  "description": "Architect with over 10 years of experience building construction technology solutions for site coordination, reporting, and structured updates."
+};
 
 const Founder = () => {
   const [signupOpen, setSignupOpen] = useState(false);
@@ -13,6 +28,12 @@ const Founder = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Founder & Vision"
+        description="Learn about Mirza Naseer Ahmed Baig, Senior Associate Architect with over a decade of experience, and his vision behind founding Apexis for site execution and tracking."
+        canonicalUrl="/founder"
+        jsonLd={founderSchema}
+      />
       <ScrollProgress />
       <Navbar onOpenSignup={() => setSignupOpen(true)} />
 

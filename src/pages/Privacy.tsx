@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
+import { SEO } from "@/components/common/SEO";
 
 const Privacy = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <SEO
+        title="Privacy Policy"
+        description="Official Privacy Policy of Apexis. Learn how we collect, use, and protect personal and project data for construction teams."
+        canonicalUrl="/privacy"
+      />
       <div className="container mx-auto px-4 lg:px-8 py-12 max-w-3xl">
         <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-8">
           <ArrowLeft className="w-4 h-4" /> Back to Home
